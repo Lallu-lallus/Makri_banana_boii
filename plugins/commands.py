@@ -14,19 +14,19 @@ logger = logging.getLogger(__name__)
 #Add atleast 10+ Telegraph Links below 👇
 
 
-MY_PIC = ["",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
+MY_PIC = ["CAACAgUAAxkBAAEBV_hhnO9mZLq_YATtWpvPxRTUhvjqeQAClgAD7uqpLAoAAQFBgJ8y7x4E",
+         "CAACAgUAAxkBAAEBV-hhnO87tRtiWOslzd7kJoO6uMDqbwACfQAD7uqpLHiaMiwKjyisHgQ",
+         "CAACAgUAAxkBAAEBV-phnO9GxKZm8vA_b7VEbP6TGPOAOgACgAAD7uqpLETLm5t-yXJUHgQ",
+         "CAACAgUAAxkBAAEBV-xhnO9K_TFC-3TuajXPprC40WP6KwACgQAD7uqpLKRHI19IyL5NHgQ",
+         "CAACAgUAAxkBAAEBV-5hnO9LxgOYmb2NqTs7uvuAG-KIrwACggAD7uqpLAvrpPParzAvHgQ",
+         "CAACAgUAAxkBAAEBV_BhnO9biV_3-KsHJIp47i76kwJggwAChgAD7uqpLOku03Tua9aFHgQ",
+         "CAACAgUAAxkBAAEBV_JhnO9cB5V9E3qLUT_LfA7TkKJaNgAChQAD7uqpLNBghwABo7Sc3B4E",
+         "CAACAgUAAxkBAAEBV_RhnO9fsJ5-wU8ghSBzLSkj4GgWawAChAAD7uqpLEk9Cot9nB5nHgQ",
+         "CAACAgUAAxkBAAEBV_hhnO9mZLq_YATtWpvPxRTUhvjqeQAClgAD7uqpLAoAAQFBgJ8y7x4E",
+         "CAACAgUAAxkBAAEBV_phnPATrg1b_lTal3A47TwCymRVQQACngAD7uqpLPs6j7QpOZk1HgQ",
+         "CAACAgUAAxkBAAEBV_xhnPAWaMY502YFmo76LTMAAaKymR0AAqAAA-7qqSzkkOBFTuodoR4E",
+         "CAACAgUAAxkBAAEBV_5hnPAYeQfROqWoJGvjbCKJ_PCcuAACnwAD7uqpLFloH7kzgOP-HgQ",
+         "CAACAgUAAxkBAAEBWAJhnPBTrYJipkenlfb1iaLfcI86ngAC0wAD7uqpLEa3xUskHaiGHgQ",
 ]
 
 @Client.on_message(filters.private & filters.user(BANANA_BOI) & filters.command(["broadcast"]))
