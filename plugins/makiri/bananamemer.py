@@ -42,11 +42,11 @@ RUN_STRINGS = (
 
 
 @Client.on_message(
-    filters.command("runs", COMMAND_HAND_LER) &
+    filters.command("makiri", COMMAND_HAND_LER) &
     f_onw_fliter
 )
 async def runs(_, message):
-    """ /runs strings """
+    """ /makiri Banana 🍌 """
     effective_string = random.choice(RUN_STRINGS)
     if message.reply_to_message:
         await message.reply_to_message.reply_text(effective_string)
