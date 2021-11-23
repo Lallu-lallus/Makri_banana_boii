@@ -1,5 +1,5 @@
-#Kanged From @Makkiri Banana 🍌
-from makkiri import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS
+#Kanged From @M_STER_TECH
+from info import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
 import re
@@ -307,10 +307,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', 'url=https://t.me/tg_bots_updates'),
+                    InlineKeyboardButton('Update Channel', 'url=https://t.me/M_STER_TECH'),
                 ]
                 ]
-            await query.message.edit(text="<b>Creator : <a href='https://t.me/Pro_editor_tg'>Devcentre</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n Update Channel : <a href='https://t.me/Cml_links'>Alpha Botz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Creator : <a href='https://t.me/PANDITHAN_SIR'>PANDITHAN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n Update Channel : <a href='https://t.me/Cml_links'>M_STER_TECH</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -331,7 +331,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                     InlineKeyboardButton('🤖 More Bots 🤖', url='https://t.me/tg_bots_disccurssions'),
+                     InlineKeyboardButton('🤖 More Bots 🤖', url='https://t.me/M_STER_TECH'),
                     ]
                     ]
                 
@@ -362,7 +362,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                     InlineKeyboardButton('🤖 More Bots 🤖', url='https://t.me/tg_bots_disccurssions'),
+                     InlineKeyboardButton('🤖 More Bots 🤖', url='https://t.me/M_STER_TECH'),
                     ]
                     ]
                 
