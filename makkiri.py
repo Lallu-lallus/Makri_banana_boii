@@ -27,6 +27,9 @@ DATABASE_URI = environ['DATABASE_URI']
 DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+# Command
+COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
+
 # Messages
 default_start_msg = """
 **Hi, I'm Media Search Bot or ypu can call me as Auto-Filter Bot**
