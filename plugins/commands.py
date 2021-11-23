@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 #Add atleast 10+ Telegraph Links below 👇
 
 
-PHOTO = ["",
+MY_PIC = ["",
          "",
          "",
          "",
@@ -128,8 +128,9 @@ async def start(bot, cmd):
             )
         )
     else:
-        await cmd.reply_photo(
-            photo=f"{random.choice(PHOTO)}",
+        bot.send_sticker(
+    chat_id=msg.from_user.id,
+    sticker=random.choice(MY_PIC)}",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
