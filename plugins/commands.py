@@ -128,7 +128,7 @@ async def start(bot, cmd):
             )
         )
     else:
-     await bot.send_sticker(
+        await bot.send_sticker(
     chat_id=msg.from_user.id,
     sticker=random.choice(MY_PIC)}",
             caption=START_MSG,
