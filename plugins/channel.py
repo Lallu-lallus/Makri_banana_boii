@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from utils import save_file
-from info import CHANNELS
+from makkiri import CHANNELS
 
 media_filter = filters.document | filters.video | filters.audio
 
