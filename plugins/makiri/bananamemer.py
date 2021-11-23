@@ -1,7 +1,7 @@
 import random
 from pyrogram import Client, filters
 from makkiri import COMMAND_HAND_LER
-from plugins.helper_functions.cust_p_filters import f_onw_fliter
+from plugins.makiri_helper.cust_p_filters import f_onw_fliter
 
 
 RUN_STRINGS = (
