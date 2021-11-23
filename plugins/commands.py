@@ -135,8 +135,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs", url="https://t.me/Dqautofl_bot?startgroup=true"),  
-                        InlineKeyboardButton("ᴀʙᴏᴜᴛ", switch_inline_query_current_chat='')
+                        InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
                     ],[
                         InlineKeyboardButton("sᴇᴀʀᴄʜ", callback_data="about"),
                         InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help")
