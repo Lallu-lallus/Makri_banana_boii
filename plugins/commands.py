@@ -19,7 +19,7 @@ PHOTO = [
 
 ]
 
-@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
+@Client.on_message(filters.private & filters.user(BANANA_BOI) & filters.command(["broadcast"]))
 async def broadcast(bot, message):
  if (message.reply_to_message):
    ms = await message.reply_text("Geting All ids from database ...........")
@@ -142,7 +142,7 @@ async def start(bot, cmd):
         )
 
 
-@Client.on_message(filters.command('channel') & filters.user(ADMINS))
+@Client.on_message(filters.command('channel') & filters.user(BANANA_BOI))
 async def channel_info(bot, message):
     """Send basic information of channel"""
     if isinstance(CHANNELS, (int, str)):
@@ -172,7 +172,7 @@ async def channel_info(bot, message):
         os.remove(file)
 
 
-@Client.on_message(filters.command('total') & filters.user(ADMINS))
+@Client.on_message(filters.command('total') & filters.user(BANANA_BOI))
 async def total(bot, message):
     """Show total files in database"""
     msg = await message.reply("Processing...⏳", quote=True)
@@ -184,7 +184,7 @@ async def total(bot, message):
         await msg.edit(f'Error: {e}')
 
 
-@Client.on_message(filters.command('logger') & filters.user(ADMINS))
+@Client.on_message(filters.command('logger') & filters.user(BANANA_BOI))
 async def log_file(bot, message):
     """Send log file"""
     try:
@@ -193,7 +193,7 @@ async def log_file(bot, message):
         await message.reply(str(e))
 
 
-@Client.on_message(filters.command('delete') & filters.user(ADMINS))
+@Client.on_message(filters.command('delete') & filters.user(BANANA_BOI))
 async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
