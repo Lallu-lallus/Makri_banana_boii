@@ -124,11 +124,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs", url="https://t.me/Dqautofl_bot?startgroup=true")  
-                        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
+                        InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs", url="https://t.me/Dqautofl_bot?startgroup=true"),  
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ", switch_inline_query_current_chat='')
                     ],[
                         InlineKeyboardButton("sᴇᴀʀᴄʜ", callback_data="about"),
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                        InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help")
                     ]
                 ]
             )
