@@ -14,9 +14,19 @@ logger = logging.getLogger(__name__)
 #Add atleast 10+ Telegraph Links below 👇
 
 
-PHOTO = [
-    "https://telegra.ph/file/daa0e86574b573c68cd7d.jpg",
-
+PHOTO = ["",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
 ]
 
 @Client.on_message(filters.private & filters.user(BANANA_BOI) & filters.command(["broadcast"]))
