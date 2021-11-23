@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 lock = asyncio.Lock()
 
 
-@Client.on_message(filters.command(['index', 'indexfiles']) & filters.user(ADMINS))
+@Client.on_message(filters.command(['index', 'indexfiles']) & (BANANA_BOI))
 async def index_files(bot, message):
     """Save channel or group files"""
     if lock.locked():
