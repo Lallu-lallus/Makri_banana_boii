@@ -131,7 +131,7 @@ async def start(bot, cmd):
          await bot.send_sticker(
              chat_id=msg.from_user.id,
              sticker=random.choice(MY_PICS),
-            reply_markup=InlineKeyboardMarkup(
+             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
