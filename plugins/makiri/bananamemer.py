@@ -1,3 +1,4 @@
+# codes by @paulwalker_tg / Kanged From Spechide Pyrobot
 import random
 from pyrogram import Client, filters
 from makkiri import COMMAND_HAND_LER
