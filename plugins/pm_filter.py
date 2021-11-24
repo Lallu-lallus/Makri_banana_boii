@@ -144,21 +144,14 @@ async def group(client, message):
                     ]
                 )
         else:
-            Alpha=await client.send_message(
-            chat_id = message.chat.id,
-            text=f"""
-<b>👋Hey {message.from_user.mention}</b>
-
-<b>Sorry, No Movie/Series Related to the Given Word Was Found 🥺</b>
-
-<b>Please Go to Google and Confirm the Correct Spelling 🙏</b>
-
-<b>Click Here To 👉 <a href='https://www.google.com'>🔍 Search 🔎</a> </b>
-
-<b>✍Or Your Spelling Is Correct Report To Admins For Add Requested File :- @admins</b>""",
-            
-            parse_mode="html",
-            reply_to_message_id=message.message_id
+        buttons [[
+            InlineKeyboardButton('✨UPDATE CHANNEL✨', url="https//t.me/M_STER_TECH")
+        ]]
+        reply_markup=InlineKeyboardMarkup(buttons)
+        await bot.send_message(
+            chat_id=update.chat.id,
+            text="തങ്ങൾ അടിച്ചിരിക്കുന്നത് തെറ്റായ speling ആണ് ദയവായി correct ആയി അടിക്കുക എന്നാൽ മാത്രമേ നിങ്ങൾ ഉദെഷിക്കുന്ന മൂവി ലഭിക്കുകയുള്ളു",
+            reply_markup=reply_markup
         )
             return
         if not btn:
