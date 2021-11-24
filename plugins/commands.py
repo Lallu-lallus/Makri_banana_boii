@@ -134,7 +134,7 @@ async def start(bot, cmd):
              reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                        InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/Makriautofilter_bot?startgroup=true")
                     ],[
                         InlineKeyboardButton("sᴇᴀʀᴄʜ", callback_data="about"),
                         InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help")
