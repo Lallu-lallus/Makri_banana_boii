@@ -1,1 +1,1 @@
-
+class script(object):
