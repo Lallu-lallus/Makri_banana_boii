@@ -10,7 +10,7 @@ from utils import Media, get_file_details, get_size
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
-#photo code kanged from @codes4ya Channel !
+#stiker code kanged from @M_STER_TECH Channel !
 #Add atleast 10+ Telegraph Links below 👇
 
 
