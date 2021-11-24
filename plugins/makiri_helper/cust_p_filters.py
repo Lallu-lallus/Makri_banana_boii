@@ -2,7 +2,7 @@ from pyrogram import (
     filters
 )
 from makkiri import BANANA_BOI, AUTH_USERS
-from plugins.helper_functions.f_onw_fliter import f_onw_fliter
+from makkiri.makiri_helper.admin_check import admin_check
 import os
 
 USE_AS_BOT = os.environ.get("USE_AS_BOT", True)
