@@ -129,7 +129,7 @@ async def start(bot, cmd):
         )
     else:
          await bot.send_sticker(
-             chat_id=message.from_user.id,
+             chat_id=cmd.from_user.id,
              sticker=random.choice(MY_PIC),
              reply_markup=InlineKeyboardMarkup(
                 [
