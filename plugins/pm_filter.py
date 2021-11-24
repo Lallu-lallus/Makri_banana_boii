@@ -144,7 +144,7 @@ async def group(client, message):
                     ]
                 )
         else:
-        buttons [[
+        buttons  [[
             InlineKeyboardButton('✨UPDATE CHANNEL✨', url="https//t.me/M_STER_TECH")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
