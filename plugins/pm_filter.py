@@ -144,15 +144,17 @@ async def group(client, message):
                     ]
                 )
         else:
-            buttons [[
-            InlineKeyboardButton('✨UPDATE CHANNEL✨', url="https//t.me/M_STER_TECH")
-        ]]
-        reply_markup=InlineKeyboardMarkup(buttons)
-        await bot.send_message(
-            chat_id=update.chat.id,
-            text="തങ്ങൾ അടിച്ചിരിക്കുന്നത് തെറ്റായ speling ആണ് ദയവായി correct ആയി അടിക്കുക എന്നാൽ മാത്രമേ നിങ്ങൾ ഉദെഷിക്കുന്ന മൂവി ലഭിക്കുകയുള്ളു",
-            reply_markup=reply_markup
-        )
+            buttons = [[
+                InlineKeyboardButton('✨UPDATE CHANNEL✨', url="https//t.me/M_STER_TECH")
+            ]]
+            reply_markup=InlineKeyboardMarkup(buttons)
+            st = await message.reply_text(
+                text="തങ്ങൾ അടിച്ചിരിക്കുന്നത് തെറ്റായ speling ആണ് ദയവായി correct ആയി അടിക്കുക എന്നാൽ മാത്രമേ നിങ്ങൾ ഉദെഷിക്കുന്ന മൂവി ലഭിക്കുകയുള്ളു",
+                reply_markup=reply_markup,
+                reply_to_message_id=message.message_id
+            )
+            await asyncio.sleep(15) # You can change the seconds if you want.
+            await st.delete() # Deleting the message.    
         return
         if not btn:
             return
