@@ -1,10 +1,11 @@
+#credits - @pro_editor_tg @Joel_TG
 import os
 import time
 import random
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from info import START_MSG, CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
+from makkiri import START_MSG, CHANNELS, BANANA_BOI, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
 from utils import Media, get_file_details, get_size
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
