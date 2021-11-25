@@ -238,5 +238,5 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Update Channel', url='https://t.me/M_STER_TECH')
         ]
         ]
-    await message.reply(text="yt text", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="about text", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
