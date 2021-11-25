@@ -1,13 +1,16 @@
-#credits - @pro_editor_tg @Joel_TG
 import os
-import time
-import random
 import logging
+import random
+import asyncio
+from pandithan import pandithan
 from pyrogram import Client, filters
+from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from makkiri import START_MSG, CHANNELS, BANANA_BOI, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
-from utils import Media, get_file_details, get_size
-from pyrogram.errors import UserNotParticipant
+from database.ia_filterdb import Media, get_file_details, unpack_new_file_id
+from database.users_chats_db import db
+from info import CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
+from utils import get_size, is_subscribed, temp
+import re
 logger = logging.getLogger(__name__)
 
 #stiker code kanged from @M_STER_TECH Channel !
