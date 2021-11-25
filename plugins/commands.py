@@ -230,3 +230,13 @@ async def bot_info(bot, message):
         ]
         ]
     await message.reply(text="yt text", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+
+@Client.on_message(filters.command('about'))
+async def bot_info(bot, message):
+    buttons = [
+        [
+            InlineKeyboardButton('Update Channel', url='https://t.me/M_STER_TECH')
+        ]
+        ]
+    await message.reply(text="yt text", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+
