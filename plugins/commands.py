@@ -135,7 +135,7 @@ async def start(bot, cmd):
                     [
                         InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/Makriautofilter_bot?startgroup=true")
                     ],[
-                        InlineKeyboardButton("sᴇᴀʀᴄʜ", callback_data="about"),
+                        InlineKeyboardButton("sᴇᴀʀᴄʜ", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help")
                     ]
                 ]
